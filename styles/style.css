@@ -1,3 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: 'Cabin';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1rem;
+  color: #1a1a1a;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+#logo {
+  width: 180px;
+  padding: 1em;
+}
+
+#menu {
+  display: flex;
+  align-self: center;
+  width: 30%;
+}
+
+#menu ul li {
+  list-style-type: none;
+  margin-right: 1.5em;
+}
+
+#menu ul {
+  display: flex;
+  margin: auto;
+}
+
+header {
+  background-image: url('/images/landing.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.quote {
+  align-self: center;
+  width: 50%;
+}
+
+.quote h1 {
+  color: #fff;
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+header p {
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+#second-section {
+  padding: 3em 0;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+#underline-green {
+  border-bottom: 2px solid #00b172;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.advantages-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.advantages-div h3 {
+  color: #00b172;
+  font-size: 1.8em;
+}
+
+.advantages-div img {
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+.advantages {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#third-section {
+  background-color: #00b172;
+  padding: 3em;
+  background-image: url(/images/spotify-icon-white.png);
+  background-position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#third-section h3 {
+  font-size: 2em;
+  line-height: 2em;
+}
+
+#third-section p {
+  line-height: 1.5em;
+}
+
+#third-section h4,
+#third-section h3,
+#third-section p {
+  color: #fff;
+}
+
+#third-section h4 {
+  font-size: 1.5em;
+}
+
+.features {
+  margin: 3em 0;
+  width: 40%;
+}
+
+#underline-white {
+  border-bottom: 2px solid #fff;
+  width: max-content;
+}
+
+#app-img {
+  height: 500px;
+  margin-top: 3em;
+}
+
 /*
 Colors:
 
